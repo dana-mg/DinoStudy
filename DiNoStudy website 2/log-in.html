@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="sp">
+    <head>
+        <title>DiNoStudy</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="widt=device.width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
+    </head>
+    <body>
+        <!--caja principal start-->
+        <div class="main-wrapper">
+            
+        <!--header start-->
+        <header class="header">
+            <div class="container">
+                <div class="header-main d-flex justify-content-between align-items-center">
+                    <div class="header-logo">
+                        <a href="index.html"><span>DiNo</span>Study</a>                        
+                    </div>
+                    <button type="button" class="header-dinostudy-btn js-header-menu-toggler">
+                        <span></span>
+                    </button>
+                    <div class="header-backdrop js-header-backdrop"></div>
+                    <nav class="header-menu js-header-menu">
+                        <button type="button" class="header-close-btn js-header-menu-toggler">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <ul class="menu">
+                            <li class="menu-item"><a href="index.html"><b>Inicio</b></a></li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#" class="js-toggle-sub-menu"><b>Guías</b><i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu js-sub-menu">
+                                    <li class="sub-menu-item"><a href="guías-bg-1.html">Bachillerato general</a></li>
+                                    <li class="sub-menu-item"><a href="guías-bt-1.html">Bachillerato técnico</b></a></li>
+                                </ul>
+                            </li>                            
+                            <li class="menu-item js-sub-menu">
+                                <a href="#" class="js-toggle-sub-menu"><b>Únete</b><i class="fas fa-chevron-down"></i></a>
+                                <ul class="sub-menu js-sub-menu">
+                                    <li class="sub-menu-item"><a href="sign-up.html">Registrate</a></li>
+                                    <li class="sub-menu-item"><a href="log-in.html">Inicia sesión</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#"><b>Sobre nosotros</b></a></li>
+                            <li class="menu-item"><a href="contact.html"><b>Contáctanos</b></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header end-->
+        
+        <!--breadcrumb start-->
+        <div class="breadcrumb-nav">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                      <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Inicia Sesión</li>
+                    </ol>
+                  </nav>
+            </div>
+        </div>
+        <!--breadcrumb end-->
+
+        <!--login section start-->
+        <section class="login-section section-padding">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-7 col-lg-6 col-xl-5">
+                        <div class="login-form box">
+                            <h2 class="form-title text-center">Inicia Sesión</h2>
+                            <form action="">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Email">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <div class="d-flex mb-2 justify-content-end"><a href="#"> Has olvidado tu contraseña?</a></div>
+                                <input type="password" class="form-control" placeholder="Contraseña">
+                                </div>
+                                <br>
+                                <button type="submit" class="btn btn-theme btn-block btn-form">Inicia Sesión</button>
+                                <p class="text-center mt-4 mb-0">¿No tienes una cuenta? <a href="sign-up.html">Registrate</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--login section end-->
+
+        <!--footer start-->
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3 class="footer-logo"><span>DINO</span>study</h3>
+                                <ul>
+                                    <li><a href="#">Sobre nosotros</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>Aprendizaje</h3>
+                                <ul>                                               
+                                    <li><a href="#">Testimonios</a></li>                                               
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>Más</h3>
+                                <ul>
+                                    <li><a href="contact.html">Ayuda y apoyo</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <div class="footer-item">
+                                <h3>Ponte en contacto</h3>
+                                <ul>                                                
+                                    <li><a href="https://www.instagram.com/dinostudy_oficial/"><i class="fab fa-instagram social-icon"></i>Instagram</a></li>                                                
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p class="m-0 py-4 text-center">copyright &copy;2023 Los Cuyos de Atizapán</p>
+                </div>
+            </div>
+        </footer>
+        <!--footer end-->
+    </div>                
+</div>
+</div>
+</section>
+<!--sección cursos end-->
+
+<br><br>
+
+</div>
+<!--main wrapper end-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
